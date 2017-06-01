@@ -12,10 +12,10 @@ class App extends React.Component {
 		return(
 			<div>
 				<Header />
+				<SideBar />
 				<div className="main-content">
 					<Blogs blogList = {this.state.blogList} />
 				</div>
-				<SideBar />
 				<Footer />
 			</div>
 
