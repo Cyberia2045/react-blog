@@ -27,12 +27,29 @@ body {
 	min-height: 100vh;
 }
 
+.blogs-container {
+	margin: 10px;
+	max-width: 600px;
+}
+
+.blog {
+	color: rgb(128, 98, 98);
+	text-align: right;
+}
+
+.blog h2 {
+	font-family: "Futura";
+}
+
+.blog p {
+	padding-left: 50px;
+}
 /*----------Sidebar Styling-----------*/
 
 .sidebar-container {
 	float: right;
 	width: 200px;
-	margin: 10px;
+	margin: 20px;
 	text-align: center;
 }
 
