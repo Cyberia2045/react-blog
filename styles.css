@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: silver;
+	margin: 0;
+}
+
+/*----------header styling----------*/
+
+.header-container {
+	height: 25vh;
+	padding: 10px;
+	background-color: black;
+}
+
+.main-header {
+	color: white;
+	font-family: cursive;
+	text-align: center;
+}
+
+/*----------main content----------*/
+
+.main-content {
+	min-height: 100vh;
+}
+
+/*----------Sidebar Styling-----------*/
+
+.sidebar-container {
+	position: fixed;
+	top: 300px;
+	right: 50px;
+	width: 200px;
+	text-align: center;
+}
+
+.profile-pic {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-image: url(sagar.jpg);
+	background-size: cover;
+}
+
+/*----------footer styling----------*/
+
+.footer {
+	background-color: black;
+	height: 10vh;
+}
+
+.footer p {
+	color: beige;
+	text-align: center;
+}
